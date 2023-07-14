@@ -11,6 +11,23 @@ const createBook = async (payload: IBookList): Promise<IBookList | null> => {
   return result;
 };
 
+// update a book
+
+const updateBook = async (
+  semesterId: string,
+  payload: Partial<IBookList>
+): Promise<IBookList | null> => {
+  // const id = { _id : semesterId};
+  // checking semester final title and code
+
+  const result = await BookLishModel.findOneAndUpdate(
+    { _id: semesterId },
+    payload,
+    { new: true }
+  );
+  return result;
+};
+
 // get semester data querys
 const getAllBookServe = async (
   filtering: IBookLishtFilters,
@@ -88,4 +105,5 @@ export const BookServices = {
   getAllBookServe,
   singelBook,
   DeleteBook,
+  updateBook,
 };

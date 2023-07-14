@@ -13,7 +13,7 @@ router.post(
 router.patch(
   '/:id',
   validateRequest(BookValidation.updateBookListZodSchema),
-  BookController.updateSemester
+  BookController.updateBook
 );
 router.get('/', BookController.getAllBook);
 router.get('/:id', BookController.SingelGetBook);

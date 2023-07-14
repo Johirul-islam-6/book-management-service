@@ -23,6 +23,19 @@ const createBook: RequestHandler = catchAsync(
   }
 );
 
+// update a book
+const updateBook = catchAsync(async (req: Request, res: Response) => {
+  const semesterid = req.params.id;
+  const updateData = req.body;
+  const result = await BookServices.updateBook(semesterid, updateData);
+  sendResponse<IBookList>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    data: result,
+    message: 'A singel semester updated successfully',
+  });
+});
+
 // get all booklist
 const getAllBook = catchAsync(
   async (req: Request, res: Response, next: NextFunction) => {
@@ -85,4 +98,5 @@ export const BookController = {
   getAllBook,
   SingelGetBook,
   SingelDeleteBook,
+  updateBook,
 };
