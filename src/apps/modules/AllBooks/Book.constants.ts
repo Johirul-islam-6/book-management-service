@@ -1,6 +1,13 @@
+import { IcetagoryBookTitele } from './Book.interface';
+
 export const gender = ['male', 'female'];
 export const bloodGroup = ['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-'];
 
+export const ABookCetagoryTitele: IcetagoryBookTitele[] = [
+  'Story',
+  'Fun',
+  'Game',
+];
 export const studentSearchableFields = [
   'id',
   'email',
@@ -17,4 +24,11 @@ export const studentFilterableFields = [
   'email',
   'contactNo',
   'emergencyContactNo',
+];
+
+export const academicSemesterSearchableFields = [
+  'year',
+  'author',
+  'title',
+  'genre',
 ];

@@ -1,3 +1,4 @@
+// import { httpStatus } from 'http-status';
 import express, { Application } from 'express';
 import cors from 'cors';
 
@@ -21,7 +22,7 @@ app.use('/api/v1', router);
 //global Error Handelar
 app.use(globalErrorHandeler);
 
-//handle not found
+// handle not found
 // app.use((req: Request, res: Response, next: NextFunction) => {
 //   res.status(httpStatus.NOT_FOUND).json({
 //     success: false,
