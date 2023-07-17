@@ -10,10 +10,16 @@ router.post(
   validateRequest(BookValidation.createBookListZodSchema),
   BookController.createBook
 );
+router.patch('/like', BookController.likeBook);
 router.patch(
   '/:id',
   validateRequest(BookValidation.updateBookListZodSchema),
   BookController.updateBook
+);
+router.post(
+  '/comment',
+  // validateRequest(BookValidation.updateBookListZodSchema),
+  BookController.commentBook
 );
 router.get('/', BookController.getAllBook);
 router.get('/:id', BookController.SingelGetBook);

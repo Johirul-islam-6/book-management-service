@@ -1,50 +1,40 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 1
-  },
-  "auditLog": "C:\\books-management\\book-management-server\\logs\\winston\\successes\\.ad99bc4d80fe56576561323e8e5132b6e412a055-audit.json",
-  "files": [
-    {
-      "date": 1689272465347,
-      "name": "C:\\books-management\\book-management-server\\logs\\winston\\successes\\UM-14-07-2023-00-success.log",
-      "hash": "e3e55c4951aa1c45d4ee6e93f20798bce105350bc052a656718cf5b388720b48"
+    "keep": {
+        "days": true,
+        "amount": 1
     },
-    {
-      "date": 1689278305058,
-      "name": "C:\\books-management\\book-management-server\\logs\\winston\\successes\\UM-14-07-2023-01-success.log",
-      "hash": "af59b73165cd8fb620f44cfcebd52abc8b8a1caffebc367ef9f3e761b7cce617"
-    },
-    {
-      "date": 1689282068438,
-      "name": "C:\\books-management\\book-management-server\\logs\\winston\\successes\\UM-14-07-2023-03-success.log",
-      "hash": "0062c1ccac2caca03fad420e9555bedda4750a5a343fdaeb89dacc0d345496fa"
-    },
-    {
-      "date": 1689285615763,
-      "name": "C:\\books-management\\book-management-server\\logs\\winston\\successes\\UM-14-07-2023-04-success.log",
-      "hash": "dfa80fabc9ae4ce64a3cd5d09f05a3d86e33a8f8134195f9a6fe0fbefb8b864a"
-    },
-    {
-      "date": 1689309220552,
-      "name": "C:\\books-management\\book-management-server\\logs\\winston\\successes\\UM-14-07-2023-10-success.log",
-      "hash": "4470b5c82846be07a350e7a4e400adb552a9dbbab667a7880449ee2a89680a07"
-    },
-    {
-      "date": 1689310986359,
-      "name": "C:\\books-management\\book-management-server\\logs\\winston\\successes\\UM-14-07-2023-11-success.log",
-      "hash": "978be742ea1aacb871bf1c2f8e68b5d7f70b72ccb32398f60d2e9a3ffc1e8948"
-    },
-    {
-      "date": 1689314765239,
-      "name": "C:\\books-management\\book-management-server\\logs\\winston\\successes\\UM-14-07-2023-12-success.log",
-      "hash": "7a7995e96c06850167b0da83e84a56459f7cd97e78b92aaa90ead05476c990fc"
-    },
-    {
-      "date": 1689318012365,
-      "name": "C:\\books-management\\book-management-server\\logs\\winston\\successes\\UM-14-07-2023-13-success.log",
-      "hash": "ed1ef2aabd149b4cb7a125e562e3d322c13e1841f8010349bb9eaad00199321f"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "C:\\books-management\\book-management-server\\logs\\winston\\successes\\.ad99bc4d80fe56576561323e8e5132b6e412a055-audit.json",
+    "files": [
+        {
+            "date": 1689524146364,
+            "name": "C:\\books-management\\book-management-server\\logs\\winston\\successes\\UM-16-07-2023-22-success.log",
+            "hash": "544bc4b8f0101474947adf8512b076f1a06be0f577e7db81edb5acf237512332"
+        },
+        {
+            "date": 1689531610456,
+            "name": "C:\\books-management\\book-management-server\\logs\\winston\\successes\\UM-17-07-2023-00-success.log",
+            "hash": "a4be3e19ca6e90584ee1e35ff7727ffb91d2667e35d9f55df0b4f913683418dd"
+        },
+        {
+            "date": 1689534610051,
+            "name": "C:\\books-management\\book-management-server\\logs\\winston\\successes\\UM-17-07-2023-01-success.log",
+            "hash": "93f216e43ff892301714820928ff902699f66028d55ebff9c87ae3bafab75f00"
+        },
+        {
+            "date": 1689584002697,
+            "name": "C:\\books-management\\book-management-server\\logs\\winston\\successes\\UM-17-07-2023-14-success.log",
+            "hash": "575bfd86a5ec9a1e40de0af87635b21ceab494a26fe39edcc76a1312376af700"
+        },
+        {
+            "date": 1689602979716,
+            "name": "C:\\books-management\\book-management-server\\logs\\winston\\successes\\UM-17-07-2023-20-success.log",
+            "hash": "c0432c1d8fc311fee42ca58295d96028726f79a2fe9504f628965c7a64003d8d"
+        },
+        {
+            "date": 1689607469391,
+            "name": "C:\\books-management\\book-management-server\\logs\\winston\\successes\\UM-17-07-2023-21-success.log",
+            "hash": "8f97359fddd5ae503968a35c01e0fb1cfe74646732b9ed0c8738c4712dd30e56"
+        }
+    ],
+    "hashType": "sha256"
 }

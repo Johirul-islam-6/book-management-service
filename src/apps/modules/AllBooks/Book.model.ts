@@ -20,6 +20,11 @@ const userSchema = new Schema<IBookList>(
     title: {
       type: String,
       required: true,
+      unique: true,
+    },
+    bookPhoto: {
+      type: String,
+      required: true,
     },
     author: {
       type: String,
@@ -32,25 +37,29 @@ const userSchema = new Schema<IBookList>(
     userEmail: {
       type: String,
       required: true,
-      unique: true,
+      // unique: false,
     },
     userPhoto: {
       type: String,
-      required: true,
     },
-    gender: {
-      type: String,
-      required: true,
-    },
+
     publicationDate: {
       type: Date,
       default: Date.now,
+      required: true,
+    },
+    language: {
+      type: String,
       required: true,
     },
     year: {
       type: String,
       required: true,
     },
+    like: {
+      type: String,
+    },
+    review: [{ message: { type: String } }],
   },
   {
     timestamps: true,

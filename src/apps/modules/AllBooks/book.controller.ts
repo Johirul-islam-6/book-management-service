@@ -7,6 +7,8 @@ import { BookServices } from './Book.service';
 import { queryPick } from '../../../shared/quaryPick';
 import { pagintionField } from '../../constant/pagination';
 
+// Assuming IBookList is the interface for your book model
+
 // create a Book
 const createBook: RequestHandler = catchAsync(
   async (req: Request, res: Response, next: NextFunction) => {
@@ -23,6 +25,32 @@ const createBook: RequestHandler = catchAsync(
   }
 );
 
+// add comment list
+const commentBook: RequestHandler = catchAsync(
+  async (req: Request, res: Response, next: NextFunction) => {
+    const { id, message } = req.body;
+    console.log(req.body);
+    const result = await BookServices.createReview(id, message);
+    res.send(result);
+
+    next();
+  }
+);
+
+// Like a book
+const likeBook = catchAsync(async (req: Request, res: Response) => {
+  const { id, like } = req.body;
+
+  const result = await BookServices.likeBook(id, like);
+  // const result = await 'rasel'
+  res.send(result);
+  // sendResponse<IBookList>(res, {
+  //   statusCode: httpStatus.OK,
+  //   success: true,
+  //   data: result,
+  //   message: 'Like successfully',
+  // });
+});
 // update a book
 const updateBook = catchAsync(async (req: Request, res: Response) => {
   const semesterid = req.params.id;
@@ -99,4 +127,6 @@ export const BookController = {
   SingelGetBook,
   SingelDeleteBook,
   updateBook,
+  commentBook,
+  likeBook,
 };

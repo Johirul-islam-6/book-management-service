@@ -11,6 +11,39 @@ const createBook = async (payload: IBookList): Promise<IBookList | null> => {
   return result;
 };
 
+const createReview = async (
+  id: string,
+  payload: string
+): Promise<IBookList | null> => {
+  try {
+    const result = await BookLishModel.findByIdAndUpdate(
+      id,
+      { $push: { review: { message: payload } } },
+      { new: true }
+    ).exec();
+    return result;
+  } catch (error) {
+    // Handle error if needed
+    console.error(error);
+    return null;
+  }
+};
+
+// Like a book
+
+const likeBook = async (
+  id: string,
+  payload: string
+): Promise<IBookList | null> => {
+  console.log(id, payload);
+  const result = await BookLishModel.findByIdAndUpdate(
+    id,
+    { like: payload },
+    { new: true }
+  );
+  return result;
+};
+
 // update a book
 
 const updateBook = async (
@@ -106,4 +139,6 @@ export const BookServices = {
   singelBook,
   DeleteBook,
   updateBook,
+  createReview,
+  likeBook,
 };

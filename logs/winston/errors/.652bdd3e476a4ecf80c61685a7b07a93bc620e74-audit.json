@@ -1,50 +1,40 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 1
-  },
-  "auditLog": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\.652bdd3e476a4ecf80c61685a7b07a93bc620e74-audit.json",
-  "files": [
-    {
-      "date": 1689272465354,
-      "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-14-07-2023-00-error.log",
-      "hash": "1136d3d98e3203ae120e1d3afa9c1f665375b1d4021b8cdf515aa98edc93c2da"
+    "keep": {
+        "days": true,
+        "amount": 1
     },
-    {
-      "date": 1689278305069,
-      "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-14-07-2023-01-error.log",
-      "hash": "7f523412fc099521316e852f339faa1559fc784e792fe84a185aaaddaabf8a0c"
-    },
-    {
-      "date": 1689282068450,
-      "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-14-07-2023-03-error.log",
-      "hash": "5707540ded8dd6c470fe4397b4e2e5f6d3410daf6b3aad2ba96a61144f4d2d5d"
-    },
-    {
-      "date": 1689285615771,
-      "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-14-07-2023-04-error.log",
-      "hash": "00bb8524cbc232346f1d8e482d77c04e75f648d714f2d4c892343b7c40146495"
-    },
-    {
-      "date": 1689309220567,
-      "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-14-07-2023-10-error.log",
-      "hash": "052298c620ee5085eb979f0708789c084e135c20942aca12688f6269f0d4b300"
-    },
-    {
-      "date": 1689310986366,
-      "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-14-07-2023-11-error.log",
-      "hash": "3c8f1a8a5ca1c2695cf4006b99c182471d02a5b16f92175749b3b4b9a92d12f8"
-    },
-    {
-      "date": 1689314765246,
-      "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-14-07-2023-12-error.log",
-      "hash": "37338e5785876b74c998735226bf069988cb1bf9cdda5850b05c5c85abc5c32b"
-    },
-    {
-      "date": 1689318012371,
-      "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-14-07-2023-13-error.log",
-      "hash": "e39354861ffb66094bdd216a54a93076f33b00b68491f5b77e5c5a91f1cb1e29"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\.652bdd3e476a4ecf80c61685a7b07a93bc620e74-audit.json",
+    "files": [
+        {
+            "date": 1689524146380,
+            "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-16-07-2023-22-error.log",
+            "hash": "c9a4e14dc7cbdb21656bd8025d7476b454ef54391901f13f8502adab51741275"
+        },
+        {
+            "date": 1689531610463,
+            "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-17-07-2023-00-error.log",
+            "hash": "22668396be6780bc21cbb15cb5ddbb09bcedf5eeb2d1136e22abde663abffa9c"
+        },
+        {
+            "date": 1689534610069,
+            "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-17-07-2023-01-error.log",
+            "hash": "0f10eee2861d01b38cbc2091bd14d4e4f49fc47dd1d0e11816b86e636866403c"
+        },
+        {
+            "date": 1689584002730,
+            "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-17-07-2023-14-error.log",
+            "hash": "d39f2d296c033f35a9728dc2335d1b56031bff8388d88c2fb118e338e4471877"
+        },
+        {
+            "date": 1689602979726,
+            "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-17-07-2023-20-error.log",
+            "hash": "38e252a51fcc9aec9e21c4453e5891f60b433fef4ddab99c989c15a9bc468d29"
+        },
+        {
+            "date": 1689607469401,
+            "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-17-07-2023-21-error.log",
+            "hash": "44a26ff7934326f7ee176faff68e983f55acae4d72442ef6f99efac6815e55d2"
+        }
+    ],
+    "hashType": "sha256"
 }

@@ -2,6 +2,9 @@ import { Model } from 'mongoose';
 
 export type IcetagoryBookTitele = 'Story' | 'Fun' | 'Game';
 
+export type IReview = {
+  message: string;
+};
 // type ReviewMessage = string[];
 
 export type IBookList = {
@@ -10,14 +13,16 @@ export type IBookList = {
   category: string;
   paragrap: string;
   title: string;
-  gender: string;
+  bookPhoto: string;
+  language: string;
   author: string;
   genre: string;
   publicationDate?: Date;
   userEmail: string;
-  userPhoto: string;
+  userPhoto?: string;
   year: string;
-  // review: ReviewMessage;
+  review?: IReview[];
+  like?: string;
 };
 
 export type IBookLishtFilters = {

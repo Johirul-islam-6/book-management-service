@@ -2,6 +2,9 @@ import { z } from 'zod';
 import { gender } from './Book.constants';
 // import {  gender } from '../AllBooks/Book.constants';
 
+const ReviewValidation = z.object({
+  message: z.string(),
+});
 // zod validation error setup
 const createBookListZodSchema = z.object({
   body: z.object({
@@ -14,9 +17,18 @@ const createBookListZodSchema = z.object({
     title: z.string({
       required_error: 'Title is required',
     }),
-    gender: z.enum([...gender] as [string, ...string[]], {
-      required_error: 'Gender is required',
+    bookPhoto: z.string({
+      required_error: 'BookPhoto is required',
     }),
+    language: z.string({
+      required_error: 'language is required',
+    }),
+    like: z
+      .string({
+        required_error: 'Like is required',
+      })
+      .optional(),
+
     author: z.string({
       required_error: 'author is required',
     }),
@@ -42,6 +54,7 @@ const createBookListZodSchema = z.object({
         required_error: 'Year is Required',
       })
       .optional(),
+    review: z.array(ReviewValidation).optional().optional(),
   }),
 });
 
