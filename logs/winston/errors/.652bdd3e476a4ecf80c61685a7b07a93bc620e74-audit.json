@@ -6,34 +6,9 @@
     "auditLog": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\.652bdd3e476a4ecf80c61685a7b07a93bc620e74-audit.json",
     "files": [
         {
-            "date": 1689524146380,
-            "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-16-07-2023-22-error.log",
-            "hash": "c9a4e14dc7cbdb21656bd8025d7476b454ef54391901f13f8502adab51741275"
-        },
-        {
-            "date": 1689531610463,
-            "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-17-07-2023-00-error.log",
-            "hash": "22668396be6780bc21cbb15cb5ddbb09bcedf5eeb2d1136e22abde663abffa9c"
-        },
-        {
-            "date": 1689534610069,
-            "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-17-07-2023-01-error.log",
-            "hash": "0f10eee2861d01b38cbc2091bd14d4e4f49fc47dd1d0e11816b86e636866403c"
-        },
-        {
-            "date": 1689584002730,
-            "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-17-07-2023-14-error.log",
-            "hash": "d39f2d296c033f35a9728dc2335d1b56031bff8388d88c2fb118e338e4471877"
-        },
-        {
-            "date": 1689602979726,
-            "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-17-07-2023-20-error.log",
-            "hash": "38e252a51fcc9aec9e21c4453e5891f60b433fef4ddab99c989c15a9bc468d29"
-        },
-        {
-            "date": 1689607469401,
-            "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-17-07-2023-21-error.log",
-            "hash": "44a26ff7934326f7ee176faff68e983f55acae4d72442ef6f99efac6815e55d2"
+            "date": 1690478084432,
+            "name": "C:\\books-management\\book-management-server\\logs\\winston\\errors\\UM-27-07-2023-23-error.log",
+            "hash": "eb59c27cc825baf220afbda8feb11a243d00c1f12edb4c01ec1daed93db23dd8"
         }
     ],
     "hashType": "sha256"
